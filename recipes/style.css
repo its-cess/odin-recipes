@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     flex: 1;
     min-height: 100vh;
-    background-color: blanchedalmond;
 }
 
 .container {
@@ -21,14 +20,12 @@ body {
     flex-wrap: wrap;
     padding: 20px;
     font-size: 30px;
-    background-color: blue;
 }
 
 .body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkorange;
 }
 
 .header {
@@ -41,7 +38,6 @@ body {
     font-weight: 800;
     padding: 15px;
     margin: 15px;
-    background-color: cadetblue;
     gap: 20px;
 }
 
@@ -50,7 +46,6 @@ body {
     width: 450px;
     flex-shrink: 0;
     font-size: 26px;
-    background-color: crimson;
 }
 
 .footer {
@@ -59,7 +54,6 @@ body {
     margin-top: auto;
     justify-content: center;
     align-items: center;
-    background-color: darkolivegreen;
     height: 40px;
 }
 a {
@@ -87,7 +81,6 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #dbd7bf;
     border: 2px solid black;
     border-radius: 25px;
     row-gap: 20px;
@@ -114,7 +107,6 @@ li {
     display: flex;
     flex-direction: column;
     max-width: 450px;
-    background-color: hotpink;
     gap: 20px;
     font-size: 28px;
     justify-content: center;
@@ -124,21 +116,39 @@ li {
 }
 .crust {
     display: flex;
-    background-color: blueviolet;
     font-size: 20px;
     font-weight:500;
 }
 
 .filling {
     display: flex;
-    background-color: yellow;
     font-size: 20px;
     font-weight: 500;
 }
 
 .topping {
     display: flex;
-    background-color: greenyellow;
     font-size: 20px; 
     font-weight: 500; 
+}
+
+.berry {
+    display: flex;
+    flex: 1;
+    max-height: 450px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.description-berry {
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    max-width: 150px;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
 }

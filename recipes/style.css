@@ -6,6 +6,34 @@ font-family: 'Smooch', cursive;*/
 body {
     font-family: 'Montserrat', sans-serif; 
 }
+h2 {
+    font-family: 'Montserrat-semibold', sans-serif; 
+    font-size: 2rem;
+    padding-bottom: 12px;
+}
+.heading {
+    font-family: 'Smooch', cursive;
+    text-align: center;
+    padding: 10% 20%;
+}
+.navbar {
+    background-color: #7C9473;
+    padding: 0;
+    font-size: 1.5rem;
+}
+.navbar-home {
+    padding: 5px 40px;
+    text-decoration: none;
+    color:#CFDAC8;
+}
+.ingredients-container {
+    padding: 5% 15% 15%;
+}
+
+ol, ul {
+    line-height: 2.5;
+    font-size: 1.3rem;
+}
 
 /* Main Hero Section */
 .colored-section {
@@ -14,9 +42,7 @@ body {
 }
 .recipes-heading {
     font-family: 'Smooch', cursive;
-    font-size: 200px;
-    text-align: center;
-    padding: 10% 20%;
+    font-size: 12.5rem;
 }
 /* Card Section */
 #recipe-cards {
@@ -33,180 +59,28 @@ body {
     background-color: #7C9473;
 }
 
+/* Oat Squares Recipe */
+.oat-square-heading {
+    font-size: 6.5rem;
+}
+
+.list-ingredients {
+    padding-right: 4%;
+}
+.list-recipe {
+    padding-left: 6%;
+}
+/* Return Buttons */
+.return-button {
+    margin-top: 50px;
+    text-align: center;
+}
 /* Footer Section */
 .footer {
-   position: absolute;
-   bottom: 0;
-   height: 60px;
+    position: fixed;
+    bottom: 0;
 }
 .copyright {
     text-align: center;
-    padding: 6px;
+    padding-top: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*{
-    font-family: Helvetica, sans-serif;
-}
-
-img {
-    border-color: white;
-    margin-bottom: 20px;
-    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.5));
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    min-height: 100vh;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    font-size: 30px;
-}
-
-.body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header {
-    display: flex;
-    flex: 2;
-    max-height: 500px;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    font-weight: 800;
-    padding: 15px;
-    margin: 15px;
-    gap: 20px;
-}
-
-.sidebar {
-    display: flex;
-    width: 450px;
-    flex-shrink: 0;
-    font-size: 26px;
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    margin-top: auto;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-}
-a {
-    text-decoration: none;
-}
-.parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px;
-    gap: 4px;
-}
-
-li {
-    margin: 10px;
-}
-.intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid black;
-    border-radius: 25px;
-    row-gap: 20px;
-    padding-left: -10px;
-    margin-left: 35px;
-    margin-right: 35px;
-}
-.description {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-.title {
-    display: flex;
-    flex: 2;
-    align-items: center;
-    justify-content: center;
-}
-
-.sidebar-apple {
-    display: flex;
-    flex-direction: column;
-    max-width: 450px;
-    gap: 20px;
-    font-size: 28px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-    font-weight: 900;
-}
-.crust {
-    display: flex;
-    font-size: 20px;
-    font-weight:500;
-}
-
-.filling {
-    display: flex;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.topping {
-    display: flex;
-    font-size: 20px; 
-    font-weight: 500; 
-}
-
-.berry {
-    display: flex;
-    flex: 1;
-    max-height: 450px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.description-berry {
-    display: flex;
-    flex: 1;
-    flex-wrap: nowrap;
-    max-width: 150px;
-    font-size: 25px;
-    font-weight: 100;
-    padding: 20px;
-    justify-content: flex-start;
-    align-items: center;
-} */

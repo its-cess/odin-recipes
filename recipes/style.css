@@ -70,6 +70,28 @@ ol, ul {
 .list-recipe {
     padding-left: 6%;
 }
+
+/* Burrito Recipe */
+.burrito-heading {
+    font-size: 5rem;
+}
+
+/* Apple Pie Recipe */
+.pie-heading {
+    font-size: 6.5rem;
+    margin-bottom: 0;
+}
+.ingredients-carousel {
+    background-color: #CFDAC8;
+    padding: 5% 15% 15%;
+}
+.ingredients-title {
+    text-align: center;
+}
+.carousel-item {
+    padding: 3% 23%;
+}
+
 /* Return Buttons */
 .return-button {
     margin-top: 50px;
@@ -93,4 +115,8 @@ ol, ul {
         font-size: 6.5rem;
         text-align: center;
     }
+    .card-container {
+        padding-bottom: 100px;
+    }
+   
 }

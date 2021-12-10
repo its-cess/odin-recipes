@@ -73,6 +73,7 @@ ol, ul {
 /* Return Buttons */
 .return-button {
     margin-top: 50px;
+    padding: 12px;
     text-align: center;
 }
 /* Footer Section */
@@ -83,4 +84,13 @@ ol, ul {
 .copyright {
     text-align: center;
     padding-top: 30px;
+}
+
+
+
+@media (max-width: 1028px) {
+    .recipes-heading {
+        font-size: 6.5rem;
+        text-align: center;
+    }
 }

@@ -1,4 +1,62 @@
-* {
+/* Font Families 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat-semibold', sans-serif;
+font-family: 'Smooch', cursive;*/
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Main Hero Section */
+.colored-section {
+    background-color: #7C9473;
+    color: #fff;
+}
+.recipes-heading {
+    font-family: 'Smooch', cursive;
+    font-size: 200px;
+    text-align: center;
+    padding: 10% 20%;
+}
+/* Card Section */
+#recipe-cards {
+    padding: 7% 7%;
+}
+.card-title {
+   font-family: 'Montserrat-semibold', sans-serif;
+}
+.btn-outline-secondary {
+    font-family: 'Montserrat-semibold', sans-serif;
+    letter-spacing: .08rem;
+}
+.btn-outline-secondary:hover {
+    background-color: #7C9473;
+}
+
+/* Footer Section */
+.footer {
+   position: absolute;
+   bottom: 0;
+   height: 60px;
+}
+.copyright {
+    text-align: center;
+    padding: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*{
     font-family: Helvetica, sans-serif;
 }
 
@@ -151,4 +209,4 @@ li {
     padding: 20px;
     justify-content: flex-start;
     align-items: center;
-}
+} */
